@@ -1,0 +1,35 @@
+#barra{
+    background-color: black;
+    padding: 30px;
+    position:sticky;
+}
+#inicio{
+    padding: 30px;
+    color: white;
+    text-decoration: none;
+}
+#inicio:last-of-type{
+    background-color: aliceblue;
+    color: black
+}
+#pag1{
+    padding: 30px;
+    color: white;
+    text-decoration: none;
+}
+#pag2{
+    text-decoration: none;
+    color: white;
+    padding: 30px;
+}
+#pag3{
+    text-decoration: none;
+    color: white;
+    padding: 30px;
+}
+#git{
+    width: 68%;
+    margin-left: 15%;
+    margin-top: 7%;
+}
+

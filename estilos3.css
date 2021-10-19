@@ -1,0 +1,48 @@
+.slide {
+    margin-top: auto;
+}
+.slide {
+    height: auto;
+}
+.carousel-inner> carousel-ittem> img {
+    height: min-content;
+}
+.columna1 {
+    background-color:rgb(68, 129, 114);
+}
+.columna2 {
+    background-color:rgb(130, 146, 156);
+}
+.columna3 {
+    background-color:rgb(67, 64, 107);
+}
+#barra{
+    background-color: black;
+    padding: 30px;
+    position:sticky;
+}
+#inicio{
+    padding: 30px;
+    color: white;
+    text-decoration: none;
+}
+#pag1{
+    padding: 30px;
+    color: white;
+    text-decoration: none;
+}
+#pag2{
+    text-decoration: none;
+    color: white;
+    padding: 30px;
+}
+#pag3{
+    text-decoration: none;
+    color: white;
+    padding: 30px;
+}
+#pag3:last-of-type{
+    background-color: aliceblue;
+    color: black;
+}
+

@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilos3.css" />
+    <!-- Añade la librería CSS de Bootstrap aquí -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <style>
+        body{
+            background-color: black;
+            color:rgb(203, 203, 223);
+        }
+    </style>
+
+</head>
+<!-- Recuerda agregar las clases necesarias de container, row y col a la página para poder hacer uso de Bootstrap -->
+<body>
+    <!-- Esta división debe ser el contenedor principal-->
+
+    <!--BARRA DE NAVEGACION-->
+
+      <div id="body">
+        <ul id="barra" class="nav nav-tabs">
+            <li class="nav-item">
+              <a id="inicio" class="nav-link" aria-current="page" href="index.html">INICIO</a>
+            </li>
+            <li class="nav-item">
+              <a id="pag1" class="nav-link" href="pagina 1.html">SAN BERNARDO</a>
+            </li>
+            <li class="nav-item">
+              <a id="pag2" class="nav-link" href="pagina 2.html"> CARROS DEPORTIVOS</a>
+            </li>
+            <li class="nav-item">
+              <a id="pag3"class="nav-link" href="pagina 3.html" tabindex="-1" aria-disabled="true">LEO´S SPORTS</a>
+            </li>
+          </ul>
+    </div>
+    <div class="container-fluid">
+        <nav class="navbar navbar-expand-md navbar-black border-3 border-bottom border-primary">
+            <div class=" container-fluid">
+                <a href="#" class="navbar-brand">LEO'S SPORTS</a>
+                <button type="button" class="navbar-toggler bg-transparent" data-bs-toggle="collapse" data-bs-target="#MenuNavegacion">
+                    <span class="navbar-toggler-icon bg-blue"></span>
+                </button>
+                <div id="#MenuNavegacion" class="collapse navbar-collapse">
+                    <ul class="navbar-nav ms-3">
+                        <li class="nav-item"><a class="nav-link" href="https://www.ecured.cu/Deportes_de_combate">Combate</a></li>
+                        <li class="nav-item"><a class="nav-link" href="https://experienciajoven.com/deportes-acuaticos/">Acuaticos</a></li>
+                        <li class="nav-item"><a class="nav-link" href="https://tomi.digital/es/53779/deportes-de-conjunto?utm_source=google&utm_medium=seo">En conjunto</a></li>
+
+                        <!--LISTA DESPLEGABLE-->
+
+                        <a class="nav-link dropdown-menu-start" href="#" role="button" data-bs-toggle="dropdown">
+                            Opciones de Soporte 
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Contactanos</a></li>
+                                <li><a class="dropdown-item" href="#">Sucursales</a></li>
+                                <li><a class="dropdown-item" href="#">Atencion al cliente</a></li>
+                            </ul>
+                            <a class="nav-link dropdown-menu-start" href="#" role="button" data-bs-toggle="dropdown">
+                                Conoce nuestros planes
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">5-9 años</a></li>
+                                    <li><a class="dropdown-item" href="#">10- 15años</a></li>
+                                    <li><a class="dropdown-item" href="#"> >16 </a></li>
+                                </ul>
+                            </a>
+                        </a>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <!--CAROUSEL-->
+
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./1.jpg" class="d-block w-100" alt="..." height="600px" >
+          </div>
+          <div class="carousel-item">
+            <img src="./OIP.jpg" class="d-block w-100" alt="..."  height="600px">
+          </div>
+          <div class="carousel-item">
+            <img src="./2.jpg" class="d-block w-100" alt="..."  height="600px">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      
+        
+        <!-- Fila 1 - Debe verse en 3 columnas solo si la pantalla es más grande a 992px (lg), de lo contrario será solo 1 columna. -->
+        <div class="row">
+            <div class="columna1 col-12 col-lg-4">
+                <h1>MMA</h1>
+                <p>Las Artes Marciales Mixtas (MMA por sus siglas en inglés) son una combinación de distintas artes marciales y deportes de combate como el jiu-jitsu, box, muay thai, taekwondo, judo, lucha, entre otros. A pesar de ser un deporte reciente, desarrollado en los 90, su rápido crecimiento hoy acerca el tamaño de su audiencia a las del box o la cadena WWE.</p>
+                <img src="./MMA.jpg" alt="">
+            </div>
+            <div class="columna2 col-12 col-lg-4">
+                <h1>BOXEO</h1>
+                <p>El boxeo, también llamado a veces​ boxeo inglés o boxeo irlandés, y coloquialmente conocido como box, es un deporte de contacto en el que dos contrincantes luchan utilizando únicamente sus puños</p>
+                <img src="./BOXEO.jpg" alt="">
+            </div>
+            <div class="columna3 col-12 col-lg-4">
+                <h1>KARATE</h1>
+                <p>El Karate es un arte marcial japonés en el que se permiten puñetazos, patadas, golpes de codo y rodilla así como los golpes de mano abierta (o «manos cuchillo»). Puede practicarse como arte (budō), defensa personal o deporte de combate. Cada uno de estos tres ámbitos pone énfasis en aspectos distintos.</p>
+                <img src="./KARATE.jpg" alt="">
+            </div>
+        </div>
+
+        <hr>
+        <!-- Fila 2 - Debe verse en 3 columnas solo si la pantalla es más grande a 768px (md), de lo contrario será solo 1 columna. -->
+        <div class="row">
+            <div class="columna1 col-12 col-md-4">
+                <h1>NATACION</h1>
+                <p>Del latín natatio, la natación es la acción y efecto de nadar. El término también se utiliza para dar nombre al deporte que consiste en nadar a la mayor velocidad posible para derrotar a los oponentes en una carrera.</p>
+                <img src="./NATACION.jpg" alt="">
+            </div>
+            <div class="columna2 col-12 col-md-4">
+                <h1>CLAVADOS</h1>
+                <p>Es un deporte complejo por sus saltos y precisión. Se caracteriza por realizar diferentes ejecuciones en el aire, de una manera elegante y estética. La puntuación de los jueces depende de la impresión, belleza, dificultad y técnica con que los saltos son ejecutados. Los clavados se componen de tres categorías: trampolín de 1 y 3 metros, así como de las plataformas de 5, 7.5 y 10 metros.</p>
+                <img src="./CLAVADOS.jpg" alt="">
+            </div>
+            <div class="columna3 col-12 col-md-4">
+                <h1>NADO SINCRONIZADO</h1>
+                <p>Es uno de los deportes o disciplinas consideradas olímpicas que supone el armado de formas artísticas y sincronizadas en un medio acuático. Para realizarla, los participantes (en la mayoría de los casos mujeres) deben poseer habilidades y destrezas en las áreas de la Natación y la Gimnasia, así como también poder moverse de manera sincronizada al ritmo de la Música, lo cual los acerca también al Baile o Danza.</p>
+                <img src="./NADO SINCRONIZADO.jpg" alt="">
+            </div>
+        </div>
+
+        <hr>
+
+        <!-- 
+            Fila 3 -     Debe verse a 1 columna si la pantalla mide menos de 768px,
+                            Debe verse en 3 columnas solo si la pantalla es más grande a 768px (md),
+                            Debe verse en 6 columna solo si la pantalla es más grande a 1200px (xl).
+        -->
+        <div class="row">
+            <div class="columna1-1 col-12 col-sm-12 col-md-4 col-xl-2">
+                <h1>FUTBOL</h1>
+                <p>Deporte que se practica entre dos equipos de once jugadores que tratan de introducir un balón en la portería del contrario impulsándolo con los pies, la cabeza o cualquier parte del cuerpo excepto las manos y los brazos; en cada equipo hay un portero, que puede tocar el balón con las manos, aunque solamente dentro del área; vence el equipo que logra más goles durante los 90 minutos que dura el encuentro.</p>
+                <img src="./FUTBOL.jpg" alt="" width="auto" height="140px">
+            </div>
+            <div class="columna2-1 col-12 col-sm-12 col-md-4 col-xl-2">
+                <h1>BASQUET</h1>
+                <p>Se conoce como basquetbol, básquetbol, baloncesto o básquet a un deporte de competición por equipos, cuyo objetivo es insertar el balón con las manos en un cesto elevado. Gana quien haga más anotaciones o "canastas" en el aro del equipo contrario.</p>
+                <img src="./BASQUET.jpg" alt="" width="auto" height="140px">
+            </div>
+            <div class="columna3-1 col-12 col-sm-12 col-md-4 col-xl-2">
+                <h1>VOLEIBOL</h1>
+                <p>Deporte que se practica entre dos equipos de seis jugadores en una cancha rectangular dividida transversalmente por una red situada a 2,43 m de altura; el objetivo es golpear el balón con manos o brazos para pasarlo por encima de la red, evitando que la pelota bote en el campo propio; los partidos constan de tres mangas de 15 puntos cada una.</p>
+                <img src="./VOLEIBOL.jpg" alt="" width="180px" height="140px">
+            </div>
+            <div class="columna1 col-12 col-sm-12 col-md-4 col-xl-2">
+                <h1>BEISBOL</h1>
+                <p>El béisbol, también llamado baseball o pelota base,​ es un deporte de equipo jugado entre dos equipos de nueve jugadores cada uno. El equipo que anote más carreras al cabo de los nueve (9) episodios, llamados innings (o entradas) que dura el encuentro, es el que resulta ganador.</p>
+                <img src="./BESIBOL.jpg" alt="" width="180px" height="140px">
+            </div>
+            <div class="columna2 col-12 col-sm-12 col-md-4 col-xl-2">
+                <h1>HANDBALL</h1>
+                <p>Balonmano es el nombre de un deporte que también se conoce como hándbol o handball. En este juego, dos equipos de siete integrantes cada uno se enfrentan entre sí: el conjunto ganador es aquel que logra anotar más goles.</p>
+                <img src="./HANDBALL.jpg" alt="" width="170px" height="140px">
+            </div>
+            <div class="columna3 col-12 col-sm-12 col-md-4 col-xl-2">
+                <h1>FUTBOL AMERICANO</h1>
+                <p>Deporte que se practica entre dos equipos de once jugadores que tratan de llevar un balón amelonado más allá de una línea de meta del equipo contrario; para jugar el balón se utilizan las manos y los pies y para impedir el ataque se puede cargar y derribar al jugador que lleva el balón; vence el equipo que consigue más puntos en los 60 minutos que dura el encuentro, divididos en cuatro partes iguales.</p>
+                <img src="./AMERICANO.jpg" alt="" width="auto" height="140px">
+            </div>
+        </div>
+
+        <hr>
+        <!-- Fila 4 - Debe verse siempre en 3 columnas excepto si la pantalla mide menos de 576px. -->
+        <div class="row">
+            <div class="columna1 col-4">
+                <h2>CONTACTANOS</2>
+                <p>000-918-9187-912</p>
+            </div>
+            <div class="columna2 col-4">
+                <h2>SUCURSALES</h2>
+                <p>MONTERREY</p>
+                <p>SAN NICOLAS</p>
+                <p>ESCOBEDO</p>
+            </div>
+            <div class="columna3 col-4">
+                <h2>ATENCION AL CLIENTE</h2>
+                <p>HABLAR CON UN OPERADOR</p>
+                <p>QUEJAS</p>
+            </div>
+        </div>
+    </div>
+    </div>
+    <!-- Añade las librerias Javascript de Bootstrap aquí -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>

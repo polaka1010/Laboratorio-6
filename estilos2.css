@@ -1,0 +1,90 @@
+
+#body{
+    background-color: rgb(219, 207, 194);
+}
+#barra{
+    background-color: black;
+    padding: 30px;
+    position:sticky;
+}
+#inicio{
+    padding: 30px;
+    color: white;
+    text-decoration: none;
+}
+#pag2:last-of-type{
+    background-color: aliceblue;
+    color: black;
+}
+#pag1{
+    padding: 30px;
+    color: white;
+    text-decoration: none;
+}
+#pag2{
+    text-decoration: none;
+    color: white;
+    padding: 30px;
+    
+}
+#pag3{
+    text-decoration: none;
+    color: white;
+    padding: 30px;
+}
+#car{
+    margin-left: 23%;
+    margin-right: 20px;
+    margin-top: 10%;
+}
+
+#lambo{
+    margin-right: 20%;
+    margin-left: 20%;
+    position: relative;
+    background-color: rgb(150, 120, 109);
+    margin-block-end: -100px;
+}
+#as{
+    margin-right: 20%;
+    margin-left: 20%;
+    position: relative;
+    background-color: rgb(223, 216, 207);
+    margin-top: 40px;
+}
+#toyo{
+    margin-right: 20%;
+    margin-left: 20%;
+    position: relative;
+    margin-block-end: 10%;
+    background-color: rgb(131, 114, 114);
+}
+#lam{
+    width: 70%;
+    height: 150%;
+    margin-left: 0%;
+    position: relative;
+}
+#toyota{
+    width: 70%;
+    height: 150%;
+    margin-left: 0%;
+    position: relative;
+}
+#aston{
+    width: 70%;
+    height: 150%;
+    margin-left: 0%;
+    position: relative;
+}
+.card{
+    margin-left: 34%;
+    height: 475px;
+    margin-top: 2%;
+    text-align: center;
+    position: relative;
+}
+.none{
+    text-decoration: none;
+    color:auto;
+}

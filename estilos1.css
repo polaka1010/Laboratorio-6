@@ -1,0 +1,76 @@
+#body{
+    background-color: rgba(100, 116, 138, 0.726);
+    text-align: center;
+}
+#barra{
+    background-color: black;
+    padding: 30px;
+    position:sticky;
+}
+#inicio{
+    padding: 30px;
+    color: white;
+    text-decoration: none;
+}
+#pag1{
+    padding: 30px;
+    color: white;
+    text-decoration: none;
+}
+#pag1:last-of-type{
+    background-color: aliceblue;
+    color: black;
+}
+#pag2{
+    text-decoration: none;
+    color: white;
+    padding: 30px;
+}
+#pag3{
+    text-decoration: none;
+    color: white;
+    padding: 30px;
+}
+#origenes{
+    background-color: antiquewhite;
+    margin-block-end: 60px;
+    margin-left: 40px;
+    margin-right: 40px;
+    height: 70%;
+    margin-top: 55px;
+}
+#san1{
+    position: relative;
+    margin-block-end: 50px;
+}
+#datos{
+    background-color: whitesmoke;
+    margin-block-end: 60px;
+    margin-right: 60px; 
+    margin-left: 40px;
+    margin-top: 55px;
+}
+#curiosidades{
+    background-color: rgb(105, 106, 121);
+    margin-block-end: 60px;
+    margin-right: 60px;
+    margin-left: 40px;
+    margin-top: 55px;
+    width: 70%;
+}
+#san23{
+    margin-right: 300px;
+    margin-block-end: 10px;
+    width: 282px;
+    height: 195px;
+}
+#san2{
+    position: relative;
+    margin-block-end: 50px;
+}#san3{
+    position: relative;
+    margin-block-end: 50px;
+}
+#card{
+    text-align: end;
+}
